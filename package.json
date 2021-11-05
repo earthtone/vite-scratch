@@ -1,0 +1,15 @@
+{
+  "name": "payable-blackness",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "web-test-runner \"src/**/*.test.js\" --node-resolve"
+  },
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@web/test-runner": "^0.13.21",
+    "vite": "^2.6.4"
+  }
+}
